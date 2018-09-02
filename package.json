@@ -1,0 +1,25 @@
+{
+  "name": "convert-seed-transaction-dates",
+  "version": "1.0.0",
+  "description": "A simple script to convert dates to MM-dd-yyyy in a Seed.co transactions-export.csv",
+  "main": "index.js",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.2"
+  },
+  "scripts": {
+    "convert": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rambda",
+    "csv",
+    "seed.co",
+    "transactions",
+    "dates"
+  ],
+  "author": "Ryan Anderson <ryan@mtvast.com> (http://mtvast.com)",
+  "license": "ISC"
+}
